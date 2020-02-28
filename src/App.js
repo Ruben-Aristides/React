@@ -11,6 +11,7 @@ import Splash from './components/Splash';
 
 function App() {
   return (
+    <>
     <Switch>
       <Route path="/register" component={Register}/>
       <Route path="/login" component={Login}/>
@@ -20,6 +21,7 @@ function App() {
         </Splash>
       </Route>
     </Switch>
+    </>
   );
 }
 
